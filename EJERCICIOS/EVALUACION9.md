@@ -68,4 +68,13 @@ d. Finalmente, crea un bucle condicional donde mientras la pila no esté vacía,
 imprimas la camisa que se está sacando.
 
 
-           Tu código aqui
+                           import java.util.Stack;
+                           public class Evaluacion_pila {
+                                public static void main(String[] args) {
+                                        Stack<String> camisas = new Stack<>();
+                                        camisas.push("blanca");
+                                        camisas.push("azul");
+                                        camisas.push("preferida");
+                                        System.out.println("Pila: "+ camisas );             
+                               }
+                            }
