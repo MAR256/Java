@@ -11,19 +11,28 @@ breve y clara.
 
 1. ¿Cuál es la sintaxis de la estructura switch - case en Java? (Valor 2)
 
+seitch (expresión) {
+case valor1:
+  //codigo
+  breack;
+  case vakir2:
+  //codigo
+  break;
+  ...
+  ...
+  default;
+  // declaraciones predeterminadas
+  ]
+
 2. ¿Cual de las siguientes oraciones es correcta acerca del default dentro de la
 estructura switch - case? (Valor 1)
 
       a. Se ejecuta si el resultado de la expresión no coincide con ningún caso.
-      b. El default es opcional.
-      c. Todas las anteriores.
+     
       
 3. ¿Cuál es una afirmación incorrecta de la estructura switch – case? (Valor 1)
 
-        a. La instrucción switch no nos permite reemplazar varias construcciones
-        if-else.
-        b. Los tipos de datos que puede evaluar un switch - case son short, int, byte o
-        char.
+       
         c. El valor para un case debe ser del mismo tipo de datos que la variable en el
         switch.
         
@@ -38,10 +47,9 @@ estructura switch - case? (Valor 1)
  5. En la estructura switch - case, ¿cuál instrucción se usa para terminar la secuencia
 de un caso? (Valor 1)
 
-      a. default
-      b. case
+      
       c. break
-      d. switch
+     
       
 6. Crea el código en java bajo las siguientes instrucciones: (Valor 3)
 
