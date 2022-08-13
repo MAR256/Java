@@ -23,9 +23,9 @@ clara, según sea el caso.
 
 ![image](https://user-images.githubusercontent.com/91554777/176980222-c9ac9e57-a50d-4329-9db6-b2b1c02aeae4.png)
 
-      a. ¿Qué tipo de dato tiene el arreglo?
-      b. ¿Qué valor se encuentra en la posición con el índice 4?
-      c. ¿Cuál es el rango de índices del arreglo?
+      a. ¿Qué tipo de dato tiene el arreglo? double
+      b. ¿Qué valor se encuentra en la posición con el índice 4? 1.2
+      c. ¿Cuál es el rango de índices del arreglo? 10
       
  4. ¿Qué tipo de ciclo se adapta fácilmente para el manejo de un arreglo? (Valor 1
 punto)
@@ -42,8 +42,7 @@ punto)
    
 6. Un arreglo bidimensional es aquel que consta de: (Valor 1 punto)
 
-        a. Una columna
-        b. n columnas
+        
         c. m filas y n columnas
         
 7. Sea un arreglo vector[] conformado por 10 elementos, ¿Qué muestra si se escribe
