@@ -32,8 +32,8 @@ permite la inserción de un nuevo elemento. (Valor 1 punto)
 4. Se tiene la siguiente lista con 6 elementos, teniendo en cuenta que es una cola
 contesta lo siguiente: (Valor 1 punto)
 
-                a. ¿Cuál fue el último elemento en entrar?8
-                b. ¿Cuál fue el último elemento en salir?5
+                a. ¿Cuál fue el último elemento en entrar?  Es el 8
+                b. ¿Cuál fue el último elemento en salir?   Es el 5
 
 ![image](https://user-images.githubusercontent.com/91554777/181845862-efa0809c-fa14-4a0b-a6c5-d6b042618992.png)
 
@@ -50,7 +50,7 @@ contesta lo siguiente: (Valor 1 punto)
 
 
 7. Determina el resultado de la siguiente pila ejecutando las siguientes instrucciones:
-(Valor 2 punto) perro
+(Valor 2 punto)  Resultado: perro
 
 ![image](https://user-images.githubusercontent.com/91554777/181846003-658ef512-f5b1-4aff-bef9-96609abf7dea.png)
 
