@@ -10,11 +10,11 @@ Indicaciones: Pedir responder cada una de las preguntas de manera breve y clara.
 realiza cada uno de ellos. (Valor 1 punto por respuesta, valor total 8 puntos)
 
 a) nextBoolean() lee los valores lógicos boleanos introducidos por el usuario
-b) nextByte()    lee los valores Byte introducidos por el usuario
-c) nextDouble    lee los valores double introducidos por el usuario     
+b) nextByte()    lee los valores byte introducidos por el usuario
+c) nextDouble()    lee los valores double introducidos por el usuario     
 d) nextFloat()   lee los valores float introducidos por el usuario
 e) nextint()     lee los valores int introducidos por el usuario 
-f) nextLine()    lee los valores line introducidos por el usuario 
+f) nextLine()    lee los valores String introducidos por el usuario 
 g) NextLong()    lee los valores long introducidos por el usuario 
 h) nextShort()   lee los valroes short introducidos por el usuario
 
