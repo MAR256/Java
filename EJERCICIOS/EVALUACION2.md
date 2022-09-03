@@ -36,7 +36,7 @@ sea "Java"? (Valor 1 punto)
 5. ¿Qué opción es un nombre de variable válido y sigue las convenciones de
 nomenclatura de Java? (Valor 1 punto)
 
-          a.
+          
           d. timeUntilLaunch
 
 6. ¿Qué línea de código declara una variable llamada numConejos para almacenar
@@ -131,10 +131,12 @@ c. Escribe la salida.
 11. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Booleans.java: (Valor 2 puntos)
 
-              public class Booleans {
-                public static void main(String[] args) {
-                }
-              }
+                                    public class CuotaMercado {
+                                      public static void main(String[] args) {
+                                       double androidCuota = 70.97;
+                                       System.out.println(androidCuota);
+                                      }
+                                    }
 
 a. Crea una variable llamada intsPuedeAlmacenarDecimales. Ponlo en verdadero
 (True) si el tipo int puede contener un número decimal. Ponlo en falso (false) si el
@@ -150,10 +152,12 @@ c. Escribe la salida.
 12. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Char.java: (Valor 2 puntos)
 
-              public class Char {
-                public static void main(String[] args) {
-                }
-              }
+                          public class Char {//Maria
+                            public static void main(String[] args) {
+                            char primerLetra = 'M';
+                            System.out.println(primerLetra);
+                            }
+                          }
     
 a. Escribe como comentario de una sola línea tu nombre
 
@@ -171,10 +175,12 @@ d. Escribe la salida.
 13. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Poema.java: (Valor 2 puntos)
 
-              public class Poema {
-                public static void main(String[] args) {
-                }
-              }
+                          public class Poema {
+                            public static void main(String[] args) {
+                             String verso = "Aquí no suceden cosas de mayor trascendencia que las rosas."
+                             System.out.println(verso)
+                            }
+                          }
     
 a. Crea una variable llamada verso de tipo string y almacena ahí el verso “Aquí no
 suceden cosas de mayor trascendencia que las rosas.”.
@@ -190,11 +196,19 @@ c. Escribe la salida.
 14. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es MiPerfil.java: (Valor 3 puntos)
 
-              public class MyProfile {
-                public static void main(String[] args) {
-
+                public class MyProfile {
+                  public static void main(String[] args) {
+                   String nombre = "Celaya Hernandez Maria Leonila";
+                   int edad = 64;
+                   double salarioDeseado = 100,500.00;
+                   char genero = 'f'
+                   boolean buscandoTrabajo = false;
+                   System.out.println(nombre);
+                   System.out.println(edad);
+                   System.out.println(salarioDeseado);
+                   System.out.println(genero);
+                  }
                 }
-              }
     
 El archivo MiPerfil.java contiene una clase que representa tu perfil de contratación que
 se presentará a potenciales empleadores.
@@ -220,8 +234,8 @@ g. Escribe la salida.
 
 
               Salida:
-              Mi Nombre
-              22
-              500000.01
-              n
-              true
+              Celaya Hernandez Maria Leonila
+              64
+              100,500.00
+              f
+              false
