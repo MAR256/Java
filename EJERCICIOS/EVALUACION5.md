@@ -64,48 +64,46 @@ de un caso? (Valor 1)
         g. Si se ingresa un número de día no válido, imprime el mensaje Número no
         válido.
         
-                                      import java.util.Scanner;
-
+                              import java.util.Scanner;
                               public class Evaluacion5 {
+                               public static void main(String[] args) {
+                                 Scanner semana = new Scanner(System.in);
+                                 int dia;
 
-                              public static void main(String[] args) {
-                              Scanner semana = new Scanner(System.in);
-                              int dia;
+                                 System.out.println("Introduce un numero del 1 al 7 para conocer el dia de la semana");
+                                 dia= semana.nextInt();
 
-                               System.out.println("Introduce un numero del 1 al 7 para conocer el dia de la semana");
-                               dia= semana.nextInt();
+                                 switch (dia)
+                                 {
+                                   case 1:
+                                       System.out.println("Lunes");
+                                       break;
 
-                               switch (dia)
-                               {
-                                 case 1:
-                                     System.out.println("Lunes");
-                                     break;
+                                   case 2:
+                                       System.out.println("Martes");
+                                       break;
 
-                                 case 2:
-                                     System.out.println("Martes");
-                                     break;
+                                    case 3:
+                                       System.out.println("Miercoles");
+                                       break;
 
-                                  case 3:
-                                     System.out.println("Miercoles");
-                                     break;
+                                     case 4:
+                                       System.out.println("Jueves");
+                                       break;
 
-                                   case 4:
-                                     System.out.println("Jueves");
-                                     break;
+                                     case 5:
+                                       System.out.println("Viernes");
+                                       break;
 
-                                   case 5:
-                                     System.out.println("Viernes");
-                                     break;
+                                     case 6:
+                                       System.out.println("Sabado");
+                                       break;
 
-                                   case 6:
-                                     System.out.println("Sabado");
-                                     break;
+                                     case 7:
+                                       System.out.println("Domingo");
+                                       break;
 
-                                   case 7:
-                                     System.out.println("Domingo");
-                                     break;
-
-                                   default:
+                                     default:
                                        System.out.println("Numero no valido");
                                          }
                                       }
