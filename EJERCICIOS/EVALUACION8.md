@@ -18,7 +18,7 @@ f) nextLine()    lee los valores String introducidos por el usuario
 g) NextLong()    lee los valores long introducidos por el usuario 
 h) nextShort()   lee los valroes short introducidos por el usuario
 
-![image](https://user-images.githubusercontent.com/91554777/180586209-3b52cbdf-7038-4243-9f5b-05a6ee157f76.png)
+![image](https://user-images.githubusercontent.com/104279939/188257800-1fe4b869-8262-480c-9b7b-f285f40e14d7.png)
 
 2. De las siguientes dos líneas de código, ¿Cuál será el resultado de aplicar ese
 método? (Valor 1 punto)
