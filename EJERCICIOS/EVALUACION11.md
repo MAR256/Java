@@ -28,8 +28,7 @@ punto)
 3. Este ordenamiento sigue el principio "divide y vencerás", es un ordenamiento
 rápido. (Valor 1 punto)
 
-            a. Burbuja (Bubble sort)
-            b. Inserción (Insertion sort)
+            
             c. QuickSort
             
 4. Se tiene el siguiente arreglo con 5 elementos, después de finalizar la primera
