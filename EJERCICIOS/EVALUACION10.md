@@ -30,7 +30,7 @@ contesta lo siguiente: (Valor 1 punto)
 
 4. ¿Para qué sirven los métodos peek() y element() en las colas? (Valor 1 punto)
 
-            a. Para recuperar o buscar el último elemento de la cola y no imprime los
+            c. Para recuperar o buscar el elemento de la cabecera de la cola e imprime los
             elementos que tiene.
             
 
@@ -61,19 +61,18 @@ i. Ejemplo. El próximo nombre a eliminar es: Nombre 4.
 
       Tu código aqui
 
-import java.util.Queue;
-import java.util.LinkedList;
-
-    public class evaluacioncolas {
-    public static void main(String[] args) {
-    Queue usuarios = new LinkedList();
-    usuarios.add("Alfonso");
-    usuarios.add("Fernanda");
-    usuarios.add("Yeyetsi");
-    usuarios.add("Francisco");
-    usuarios.add("Maria");
-    System.out.println("El usuario a eliminar es " + usuarios.remove());
-    System.out.println("El usuario a eliminar es " + usuarios.remove());
-    System.out.println("El usuario que sigue a eliminar es " + usuarios.element());
-    }
-  }
+      import java.util.Queue;
+      import java.util.LinkedList;
+        public class Cola {
+          public static void main(String[] args) {
+          Queue<String> usuarios = new LinkedList<>();
+          usuarios.add("Maria");
+          usuarios.add("Fernanda");
+          usuarios.add("Alfonso");
+          usuarios.add("Yeyetzi");
+          usuarios.add("Francisco");
+          System.out.println("El usuario a eliminar es " + usuarios.remove());
+          System.out.println("El usuario a eliminar es " + usuarios.remove());
+          System.out.println("El usuario que sigue a eliminar es " + usuarios.element());
+          }
+      }
