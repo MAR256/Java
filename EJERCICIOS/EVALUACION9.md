@@ -27,13 +27,13 @@ en salir. (Valor 1 punto)
 permite la inserción de un nuevo elemento. (Valor 1 punto)
 
               a. Verdadero
-              b. Falso
+              
 
 4. Se tiene la siguiente lista con 6 elementos, teniendo en cuenta que es una cola
 contesta lo siguiente: (Valor 1 punto)
 
-                a. ¿Cuál fue el último elemento en entrar?  Es el 8
-                b. ¿Cuál fue el último elemento en salir?   Es el 5
+                a. ¿Cuál fue el último elemento en entrar?  Es el 5
+                b. ¿Cuál fue el último elemento en salir?   Es el 8
 
 ![image](https://user-images.githubusercontent.com/91554777/181845862-efa0809c-fa14-4a0b-a6c5-d6b042618992.png)
 
@@ -68,13 +68,21 @@ d. Finalmente, crea un bucle condicional donde mientras la pila no esté vacía,
 imprimas la camisa que se está sacando.
 
 
-                           import java.util.Stack;
-                           public class Evaluacion_pila {
-                                public static void main(String[] args) {
-                                        Stack<String> camisas = new Stack<>();
-                                        camisas.push("blanca");
-                                        camisas.push("azul");
-                                        camisas.push("preferida");
-                                        System.out.println("Pila: "+ camisas );             
-                               }
-                            }
+              import java.util.Stack;
+               public class Pila {
+                    public static void main(String[] args) {
+                            Stack<String> camisas = new Stack<String>();
+                            camisas.push("Azul");
+                            camisas.push("Amarilla");
+                            camisas.push("Roja");
+                            String elemento = camisas.peek();
+                            System.out.println("La última camisa agregada es: " + elemento);
+                            while (!camisas.isEmpty()) {
+                            System.out.println("El nombre del alumno es : " + camisas.pop());
+
+
+                     }
+
+                }
+
+               }
